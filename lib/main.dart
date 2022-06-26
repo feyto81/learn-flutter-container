@@ -15,10 +15,9 @@ class MyApp extends StatelessWidget {
         body: Container(
           color: Colors.red,
           margin: EdgeInsets.fromLTRB(10, 15, 20, 25),
-          padding: EdgeInsets.only(bottom: 10,top: 20),
+          padding: EdgeInsets.only(bottom: 10, top: 20),
           child: Container(
-            color: Colors.blue,
-            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(color: Colors.blue),
           ),
         ),
       ),
