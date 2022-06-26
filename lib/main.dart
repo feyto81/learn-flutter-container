@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Latihan Container"),
         ),
+        body: Container(),
       ),
     );
   }
