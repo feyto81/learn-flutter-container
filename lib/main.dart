@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           color: Colors.red,
           margin: EdgeInsets.all(10),
-          // padding: EdgeInsets.all(10),
+          padding: EdgeInsets.all(10),
           child: Container(
             color: Colors.blue,
             margin: EdgeInsets.all(10),
