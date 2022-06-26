@@ -18,8 +18,10 @@ class MyApp extends StatelessWidget {
           padding: EdgeInsets.only(bottom: 10, top: 20),
           child: Container(
             decoration: BoxDecoration(
-                gradient:
-                    LinearGradient(colors: <Color>[Colors.amber, Colors.blue])),
+                gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                    colors: <Color>[Colors.amber, Colors.blue])),
           ),
         ),
       ),
